@@ -13,6 +13,7 @@
 		0CB7A3B024FC365000C7F716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7A3AF24FC365000C7F716 /* Assets.xcassets */; };
 		0CB7A3B324FC365000C7F716 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7A3B224FC365000C7F716 /* Preview Assets.xcassets */; };
 		0CB7A3B624FC365000C7F716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7A3B424FC365000C7F716 /* LaunchScreen.storyboard */; };
+		0CB7A3BE24FC5CC300C7F716 /* ShakeGestureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7A3BD24FC5CC300C7F716 /* ShakeGestureManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0CB7A3B224FC365000C7F716 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CB7A3B524FC365000C7F716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CB7A3B724FC365000C7F716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB7A3BD24FC5CC300C7F716 /* ShakeGestureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGestureManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0CB7A3A924FC364D00C7F716 /* AppDelegate.swift */,
 				0CB7A3AB24FC364D00C7F716 /* SceneDelegate.swift */,
 				0CB7A3AD24FC364D00C7F716 /* ContentView.swift */,
+				0CB7A3BD24FC5CC300C7F716 /* ShakeGestureManager.swift */,
 				0CB7A3AF24FC365000C7F716 /* Assets.xcassets */,
 				0CB7A3B424FC365000C7F716 /* LaunchScreen.storyboard */,
 				0CB7A3B724FC365000C7F716 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				0CB7A3AA24FC364D00C7F716 /* AppDelegate.swift in Sources */,
 				0CB7A3AC24FC364D00C7F716 /* SceneDelegate.swift in Sources */,
+				0CB7A3BE24FC5CC300C7F716 /* ShakeGestureManager.swift in Sources */,
 				0CB7A3AE24FC364D00C7F716 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zemeigo..Cubee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zemeigo.Cubee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zemeigo..Cubee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zemeigo.Cubee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
